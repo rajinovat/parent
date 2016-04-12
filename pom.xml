@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.anz</groupId>
-    <artifactId>anz-parent</artifactId>
+    <artifactId>root</artifactId>
     <version>0.0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -12,17 +12,18 @@
         <repository>
             <id>release</id>
             <url>http://localhost:8081/artifactory/ext-release-local</url>
-		<uniqueVersion>false</uniqueVersion>
+		<uniqueVersion>true</uniqueVersion>
         </repository>
 	<snapshotRepository>
 	      <id>snapshot</id>
             <url>http://localhost:8081/artifactory/ext-snapshot-local</url>
-		<uniqueVersion>false</uniqueVersion>
+		<uniqueVersion>true</uniqueVersion>
 	</snapshotRepository>
     </distributionManagement>
+
   <scm>
-    <connection>scm:git:https://github.com/sanketsw/JsonJsonRestAPI.git</connection>
-    <developerConnection>scm:git:https://github.com/sanketsw/JsonJsonRestAPI.git</developerConnection>
+    <connection>scm:git:https://github.com/rajinovat/parent.git</connection>
+    <developerConnection>scm:git:https://github.com/rajinovat/parent.git</developerConnection>
   </scm>
 
 </project>
