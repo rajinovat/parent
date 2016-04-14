@@ -3,9 +3,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.anz</groupId>
-    <artifactId>root</artifactId>
-    <version>0.0.0.2-SNAPSHOT</version>
+    <groupId>com.anz.api</groupId>
+    <artifactId>Parent</artifactId>
+    <version>0.0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <distributionManagement>
